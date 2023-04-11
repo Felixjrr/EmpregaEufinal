@@ -15,13 +15,16 @@ class MainActivity : AppCompatActivity() {
 
         val edNome = binding.edUsuario
         val btLogin = binding.btLogin
+        val edSenha = binding.edSenha
 
         btLogin.setOnClickListener {
-            if(edNome.text.toString()=="Diogo") {
-                val inten = Intent(this, Tela2Activity::class.java)
+            if(edNome.text.toString()=="admin") {
+                val intent = Intent(this, Tela2Activity::class.java)
+                intent.putExtra("IntentNomeUsuario", edNome.text.toString())
+                intent.putExtra("SenhaUsuario", edSenha.text.toString())
                 val texto = edNome.text.toString()
-                inten.putExtra("nome", texto)
-                startActivity(inten)
+                intent.putExtra("nome", texto)
+                startActivity(intent)
             }
             else{
                 Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()

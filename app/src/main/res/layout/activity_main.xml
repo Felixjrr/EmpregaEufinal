@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="@string/app_name"
+        android:text="E.I.T.A RECIFE"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -22,11 +22,12 @@
         android:id="@+id/edUsuario"
         android:layout_width="258dp"
         android:layout_height="77dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="140dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/name"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/tvTitulo"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/tvTitulo"
         app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
 
@@ -36,8 +37,8 @@
         android:layout_height="77dp"
         android:layout_marginTop="80dp"
         android:ems="10"
-        android:inputType="numberPassword"
         android:hint="@string/password"
+        android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@+id/edUsuario"
         app:layout_constraintStart_toStartOf="@+id/edUsuario"
         app:layout_constraintTop_toBottomOf="@+id/edUsuario" />
