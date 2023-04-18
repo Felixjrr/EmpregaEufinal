@@ -7,15 +7,55 @@
     tools:context=".Tela3Activity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="361dp"
-        android:layout_height="77dp"
-        android:text="PRINCIPAIS DORES"
+        android:id="@+id/textView7"
+        android:layout_width="349dp"
+        android:layout_height="24dp"
+        android:rotationX="4"
+        android:text="DESAFIO 6: "
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.163"
-        tools:text="PRINCIPAIS DORES" />
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="352dp"
+        android:layout_height="362dp"
+        android:layout_marginTop="48dp"
+        android:text="Evidentemente a falta de alimentos não é a causa. Produzimos em excesso. No entanto, convivemos com um desperdício quase que insustentável de gêneros alimentícios, basta observar as feiras livres espalhadas pelos rincões do país e os produtos vencidos que são simplesmente descartados. Doutro lado, esses distribuidores de alimentos assumem esses custos de descarte do lixo orgânico.   A grande alavanca do século XXI tem sido alavancar ativos ociosos. O que tem em comum entre o UBER, AIRBNB, WIKIPEDIA? A otimização de ativos que até então estavam ociosos. O UBER e o AIRBNB ativam propriedades privadas que não estavam sendo usadas com a frequência que poderiam ser utilizadas. O WIKIPEDIA usa o tempo de pesquisadores para nos seus nichos falarem sobre assuntos técnicos, que somados montam o maior acervo técnico catalogado do mundo. E por que com a fome não poderemos pensar em solução semelhante, uma vez que há tanto desperdício?  Sabemos que a pobreza é a causa dessa fome que ainda persiste. Essa causa pode ser resolvida apenas num trabalho geracional, que congregue educação e geração de oportunidades para os mais pobres, gerando crescimento econômico e a melhor distribuição de renda.   Mas a fome, de tão inaceitável que é, pode ser enfrentada AGORA, bastando usar o desperdício, como essa alavanca para distribuir comida para o povo. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="381dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/oip" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="382dp"
+        android:layout_height="54dp"
+        android:text="OBJETIVO DE LONGO PRAZO  Viabilizar um sistema sustentável de doações de alimentação e que esta seja consumida em locais dignos, contribuindo para eliminação dessa chaga chamada fome em nossa cidade. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.463" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
